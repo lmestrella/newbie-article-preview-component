@@ -1,0 +1,33 @@
+body {
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
+}
+
+.article {
+  &__title {
+    color: $very-dark-grayish-blue;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  &__paragraph,
+  &__author-name {
+    color: $very-dark-grayish-blue;
+  }
+
+  &__author-name {
+    font-weight: bold;
+  }
+
+  &__date {
+    color: $desaturated-dark-blue;
+  }
+
+  &__share {
+    color: $grayish-blue;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+  }
+}

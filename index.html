@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/scss/main.css" />
+    <script src="./assets/js/app.js" defer></script>
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <section class="article flex flex-fd-col">
+      <div class="article__photo">
+        <img
+          src="./assets/images/drawers.jpg"
+          alt="image of a green drawer with decorations on top"
+        />
+      </div>
+
+      <div class="article__content flex flex-fd-col">
+        <span class="article__title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </span>
+
+        <p class="article__paragraph">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <div class="article__details grid grid-ai-c">
+          <div class="article__author grid">
+            <div class="article__author-avatar">
+              <img
+                src="./assets/images/avatar-michelle.jpg"
+                alt="author's avatar"
+              />
+            </div>
+            <span class="article__author-name">Michelle Appleton</span>
+            <span class="article__date">28 Jun 2020</span>
+          </div>
+
+          <div class="article__share flex flex-ai-c">
+            <span>share</span>
+            <a href="#_" class="article__share-socials">
+              <img
+                src="./assets/images/icon-facebook.svg"
+                alt="facebook icon"
+              />
+            </a>
+            <a href="#_" class="article__share-socials">
+              <img src="./assets/images/icon-twitter.svg" alt="twitter icon" />
+            </a>
+            <a href="#_" class="article__share-socials">
+              <img
+                src="./assets/images/icon-pinterest.svg"
+                alt="pinterest icon"
+              />
+            </a>
+          </div>
+
+          <a href="#_" class="article__share-icon grid grid-pi-c">
+            <img src="./assets/images/icon-share.svg" alt="share icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

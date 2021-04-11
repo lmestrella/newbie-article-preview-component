@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+
+  &-fd-col {
+    flex-direction: column;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+.grid {
+  display: grid;
+
+  &-pi-c {
+    place-items: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+body {
+  background-color: $light-grayish-blue;
+}

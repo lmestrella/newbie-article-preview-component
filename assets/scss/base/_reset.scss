@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  letter-spacing: 0.025em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
