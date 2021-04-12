@@ -23,5 +23,39 @@
 }
 
 body {
+  min-height: 100vh;
   background-color: $light-grayish-blue;
+
+  > .article {
+    &__share {
+      display: none;
+      transform: translateX(0%);
+      justify-content: space-between;
+      border-radius: $b-radius-size;
+      width: 250px;
+      height: 55px;
+      padding: 0 3em;
+      // column-gap: 6%;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -0.75em;
+        transform: translateX(-50%) rotate(45deg);
+        display: block;
+        width: 1.5em;
+        height: 1.5em;
+        background-color: $very-dark-grayish-blue;
+      }
+
+      &--show {
+        display: flex;
+      }
+
+      @include breakpoint(medium, max-width) {
+        display: none;
+      }
+    }
+  }
 }

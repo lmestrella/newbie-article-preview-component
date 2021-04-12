@@ -4,3 +4,14 @@ $desaturated-dark-blue: hsl(214, 17%, 51%);
 $grayish-blue: hsl(212, 23%, 69%);
 $light-grayish-blue: hsl(210, 46%, 95%);
 $white: hsl(0, 0%, 100%);
+
+// Defaults
+$transition-speed: 300ms;
+$delay-speed: 200ms;
+$b-radius-size: 0.8em;
+
+// Breakpoints - approx. 620px, 920px
+$breakpoints: (
+  "medium": "760px",
+  "large": "57.5em",
+);
